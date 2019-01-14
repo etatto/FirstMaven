@@ -22,13 +22,16 @@
   </dependencies>
   <build>
     <finalName>FirstMaven</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.0</version>
+        <configuration>
+          <source>1.9</source>
+          <target>1.9</target>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.6.0</version>
-    <configuration>
-        <source>1.9</source>
-        <target>1.9</target>
-    </configuration>
-</plugin></project>
+</project>
