@@ -23,4 +23,6 @@
   <build>
     <finalName>FirstMaven</finalName>
   </build>
+  <source>1.9</source>
+  <target>1.9</target>
 </project>
